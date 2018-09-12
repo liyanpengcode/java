@@ -1,0 +1,14 @@
+package com.liyanpeng.jdk8.growing.jdk5;
+
+
+public class AutoBoxing {
+
+    public static void main(String[] args) {
+        int a = new Integer(12);
+        int b = 18;
+        Boolean flag = true;
+        boolean isBug = Boolean.FALSE;
+        System.err.println("args = [" + flag + isBug + "]");
+
+    }
+}
